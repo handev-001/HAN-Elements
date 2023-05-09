@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Policy & Guidelines Agreement</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        
+form.net-form {
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:center;
+	align-items:center;
+	align-content:flex-start;
+	gap: 15px 10px;
+	max-width: 550px;
+	margin: 0 auto;
+}
+form.net-form > br {
+	display: none;
+	width: 0px;
+}
+form.net-form > label,
+form.net-form > .space {
+	flex: 1 0 150px;
+}
+form.net-form > input,
+form.net-form > textarea {
+	flex: 1 0 350px;
+	min-height:3em;
+}
+
+form.net-form > fieldset {
+	flex: 1 0 400px;
+}
+form.net-form > fieldset > legend {
+	border: none;
+}
+form.net-form > fieldset input[type="radio"] {
+	flex: 1 0 50px;
+	float: left;
+	clear: left;
+}
+form.net-form > fieldset label {
+	flex: 1 0 500px;
+	float: left;
+}
+
+form #h-field {
+	display:none;
+}
+    </style>
+
+</head>
+<body>
+
+
+
+
+<form action='/policies-rules/resort-policy-and-guidelines-agreement/resort-policy-and-guidelines-agreement-confirmation/' class='net-form' method='POST' name='policy-agreement'><input type='hidden' name='form-name' value='policy-agreement' />
+	<label for="name">Name:</label>
+	<input type="text" id="name" name="name" required="required" placeholder="Pat Doe">
+	<label for="email">Email:</label>
+	<input type="email" id="email" name="email" required="required" placeholder="PatD@email.com">
+	<label for="phone">Phone:</label>
+	<input type="tel" id="phone" name="phone" required="required" pattern="1?[0-9]{3}-?[0-9]{3}-?[0-9]{4}" placeholder="555-867-5309">
+	<label for="reservation-number">Reservation Number:</label>
+	<input type="text" id="reservation-number" name="reservation-number">
+	<label class="space">&nbsp;</label>
+	<fieldset>
+	<legend>I Agree to the Rules and Regulations Policy *</legend>
+	<input type="radio" id="rules-agree" name="rules" value="yes" checked>
+	<label for="rules-agree">Yes</label>
+	<input type="radio" id="rules-not-agree" name="rules" value="no">
+	<label for="rules-not-agree">No</label>
+	</fieldset>
+	<label class="space">&nbsp;</label>
+	<fieldset>
+	<legend>I Agree to the Cancellation Policy *</legend>
+	<input type="radio" id="cancel-agree" name="cancel" value="yes" checked>
+	<label for="cancel-agree">Yes</label>
+	<input type="radio" id="cancel-not-agree" name="cancel" value="no">
+	<label for="cancel-not-agree">No</label>
+	</fieldset>
+	<input type="text" id="h-field" name="h-field">
+	<label for="submit">&nbsp;</label>
+	<input type="submit" name="submit" value="Send Request">
+</form>
+
+
+
+</body>
+</html>
