@@ -48,6 +48,7 @@ form.net-form {
 	gap: 5px 10px;
 	max-width: 450px;
 	margin: 0 auto;
+	padding: 1em;
 }
 form.net-form > br {
 	display: none;
