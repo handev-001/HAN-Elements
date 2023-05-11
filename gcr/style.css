@@ -26,7 +26,12 @@ element {
 # User Visible Structure
 # Media Queries
 --------------------------------------------------------------*/
+body {
+	color: rgba(51,51,51,1);
+	font-family: 'Roboto', sans-serif;
 
+	background: #eeeeee;
+}
 
 
 /*--------------------------------------------------------------
@@ -37,11 +42,11 @@ form.net-form {
 	display:flex;
 	flex-direction:row;
 	flex-wrap:wrap;
-	justify-content:center;
-	align-items:center;
+	justify-content:flex-start;
+	align-items:flex-start;
 	align-content:flex-start;
-	gap: 15px 10px;
-	max-width: 550px;
+	gap: 5px 10px;
+	max-width: 450px;
 	margin: 0 auto;
 }
 form.net-form > br {
@@ -50,12 +55,35 @@ form.net-form > br {
 }
 form.net-form > label,
 form.net-form > .space {
-	flex: 1 0 150px;
+	flex: 1 0 350px;
 }
 form.net-form > input,
 form.net-form > textarea {
 	flex: 1 0 350px;
 	min-height:3em;
+	margin-bottom: 0.5em;
+
+	background-color: rgba(255,255,255,1);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(204,204,204,1);
+}
+form.net-form input[type="submit"] {
+	transition: ease all 300ms;
+	flex: 0 0 150px;
+
+	color: #ffffff;
+
+	background-color: rgba(24,75,79,1);
+	border: 1px solid #ffffff;
+}
+form.net-form input[type="submit"]:hover {
+	transition: ease all 300ms;
+
+	color: rgba(24,75,79,1);
+
+	background-color: #ffffff;
+	border: 1px solid rgba(24,75,79,1);
 }
 
 form.net-form > fieldset {
