@@ -27,7 +27,7 @@ element {
 # Media Queries
 --------------------------------------------------------------*/
 body {
-	color: rgba(51,51,51,1);
+	/* color: rgba(51,51,51,1); */
 	font-family: 'Roboto', sans-serif;
 	
 	margin: 0;
