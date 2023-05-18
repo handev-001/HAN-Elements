@@ -26,6 +26,13 @@ element {
 # User Visible Structure
 # Media Queries
 --------------------------------------------------------------*/
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
 body {
 	/* color: rgba(51,51,51,1); */
 	font-family: 'Roboto', sans-serif;
