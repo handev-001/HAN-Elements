@@ -83,15 +83,17 @@ form.net-form > .space {
 	flex: 1 0 100%;
 }
 form.net-form > input,
+form.net-form > select,
 form.net-form > textarea {
 	flex: 1 0 100%;
-	min-height:3em;
+	min-height:2em;
 	margin-bottom: 0.5em;
 
 	background-color: rgba(255,255,255,1);
     border-style: solid;
     border-width: 1px;
-    border-color: rgba(204,204,204,1);
+    border-color: rgba(214,214,214,1);
+	border-radius: 3px;
 }
 form.net-form input[type="submit"] {
 	transition: ease all 300ms;

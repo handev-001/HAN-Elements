@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Heartland Storage - Selling Your Facility?</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+   
+	<link rel="stylesheet" id="element-style"  href="style.css" media="all" />
+
+</head>
+<body>
+	<div class="container-form">
+    <form class="net-form" data-netlify="true" name="hls-contact-us" method="POST" action="thank-you" netlify-honeypot="h-field">
+        <input type='hidden' name='form-name' value='hls-contact-us' />
+        <h2>Personal Info</h2>
+        
+        <label for="first-name">First Name <span class="red-text">*</span></label>
+        <input type="text" id="first-name" name="first-name" required="required" autocomplete="given-name" placeholder="Pat">
+        
+        <label for="last-name">Last Name <span class="red-text">*</span></label>
+        <input type="text" id="last-name" name="last-name" required="required" autocomplete="family-name" placeholder="Doe">
+        
+        <label for="email">Email <span class="red-text">*</span></label>
+        <input type="email" id="email" name="email" required="required" autocomplete="email" placeholder="PatD@email.com">
+        
+        <label for="phone">Phone <span class="red-text">*</span></label>
+        <input type="tel" id="phone" name="phone" required="required" pattern="1?[0-9]{3}-?[0-9]{3}-?[0-9]{4}" autocomplete="tel" placeholder="555-867-5309">
+        
+        
+        <label for="message">Tell Us About Your Self Storage Business <span class="red-text">*</span></label>
+        <textarea id="message" name="message" rows="5"></textarea>
+
+        
+        <h2>Facility Info</h2>
+        
+        <label for="facility-address">Facility Address <span class="red-text">*</span></label>
+        <input type="text" id="facility-address" name="facility-address" required="required" placeholder="123rd ST">
+        
+        <label for="facility-address-02">Facility Address Line 2</label>
+        <input type="text" id="facility-address-02" name="facility-address-02" required="required" placeholder="Suite 100">
+        
+        <label for="facility-city">City <span class="red-text">*</span></label>
+        <input type="text" id="facility-city" name="facility-city" required="required" placeholder="Anytown">
+
+        <label for="facility-state">State <span class="red-text">*</span></label>
+        <select id="facility-city" name="facility-city" required="required">
+            <option value="AL">Alabama</option>
+            <option value="AK">Alaska</option>
+            <option value="AZ">Arizona</option>
+            <option value="AR">Arkansas</option>
+            <option value="CA">California</option>
+            <option value="CO">Colorado</option>
+            <option value="CT">Connecticut</option>
+            <option value="DE">Delaware</option>
+            <option value="DC">District Of Columbia</option>
+            <option value="FL">Florida</option>
+            <option value="GA">Georgia</option>
+            <option value="HI">Hawaii</option>
+            <option value="ID">Idaho</option>
+            <option value="IL">Illinois</option>
+            <option value="IN">Indiana</option>
+            <option value="IA">Iowa</option>
+            <option value="KS">Kansas</option>
+            <option value="KY">Kentucky</option>
+            <option value="LA">Louisiana</option>
+            <option value="ME">Maine</option>
+            <option value="MD">Maryland</option>
+            <option value="MA">Massachusetts</option>
+            <option value="MI">Michigan</option>
+            <option value="MN">Minnesota</option>
+            <option value="MS">Mississippi</option>
+            <option value="MO">Missouri</option>
+            <option value="MT">Montana</option>
+            <option value="NE">Nebraska</option>
+            <option value="NV">Nevada</option>
+            <option value="NH">New Hampshire</option>
+            <option value="NJ">New Jersey</option>
+            <option value="NM">New Mexico</option>
+            <option value="NY">New York</option>
+            <option value="NC">North Carolina</option>
+            <option value="ND">North Dakota</option>
+            <option value="OH">Ohio</option>
+            <option value="OK">Oklahoma</option>
+            <option value="OR">Oregon</option>
+            <option value="PA">Pennsylvania</option>
+            <option value="RI">Rhode Island</option>
+            <option value="SC">South Carolina</option>
+            <option value="SD">South Dakota</option>
+            <option value="TN">Tennessee</option>
+            <option value="TX">Texas</option>
+            <option value="UT">Utah</option>
+            <option value="VT">Vermont</option>
+            <option value="VA">Virginia</option>
+            <option value="WA">Washington</option>
+            <option value="WV">West Virginia</option>
+            <option value="WI">Wisconsin</option>
+            <option value="WY">Wyoming</option>
+        </select>
+        
+        <label for="facility-zip">Zip Code</label>
+        <input type="text" id="facility-zip" name="facility-zip" required="required" placeholder="55555">
+        
+        <input type="text" id="h-field" name="h-field">
+
+        <input type="submit" name="submit" value="Submit Message">
+    </form>
+    </div>
+</body>
+</html>
