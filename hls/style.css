@@ -65,7 +65,8 @@ h2 {
 
 
 
-form.net-form {
+form.net-form,
+form.net-form fieldset {
 	display:flex;
 	flex-direction:row;
 	flex-wrap:wrap;
@@ -74,17 +75,17 @@ form.net-form {
 	align-content:flex-start;
 	gap: 5px 10px;
 }
-form.net-form > br {
+form.net-form  br {
 	display: none;
 	width: 0px;
 }
-form.net-form > label,
-form.net-form > .space {
+form.net-form  label,
+form.net-form  .space {
 	flex: 1 0 100%;
 }
-form.net-form > input,
-form.net-form > select,
-form.net-form > textarea {
+form.net-form  input,
+form.net-form  select,
+form.net-form  textarea {
 	flex: 1 0 100%;
 	min-height:2em;
 	margin-bottom: 0.5em;
@@ -112,18 +113,18 @@ form.net-form input[type="submit"]:hover {
 	border: 1px solid rgba(24,75,79,1);
 }
 
-form.net-form > fieldset {
+form.net-form  fieldset {
 	flex: 1 0 calc(100% - 1.5em);
 }
-form.net-form > fieldset > legend {
+form.net-form  fieldset  legend {
 	border: none;
 }
-form.net-form > fieldset input[type="radio"] {
+form.net-form  fieldset input[type="radio"] {
 	flex: 1 0 50px;
 	float: left;
 	clear: left;
 }
-form.net-form > fieldset label {
+form.net-form  fieldset label {
 	flex: 1 0 100%;
 	float: left;
 }
