@@ -1,0 +1,49 @@
+# redirects
+# source                                        target
+# old                                           new
+
+# /short                                       https://redirect.com 301!
+
+# Storage
+/bbm/review                                           https://birdeye.com/branson-bay-marina-llc-168373546012921/review-us?dashboard=1 301!
+
+/branson/review                                        https://birdeye.com/heartland-storage-branson-kirbyville-163364779249791/review-us?dashboard=1 301!
+/branson-b/review                                      https://birdeye.com/heartland-storage-branson-bee-creek-163364780591181/review-us?dashboard=1 301!
+/branson-f/review                                      https://birdeye.com/heartland-storage-branson-forsyth-163364779242193/review-us?dashboard=1 301!
+/branson-k/review                                      https://birdeye.com/heartland-storage-branson-kirbyville-163364779249791/review-us?dashboard=1 301!
+/branson-m/review                                      https://birdeye.com/heartland-storage-merriam-woods-163364779470191/review-us?dashboard=1 301!
+/branson-t/review                                      https://birdeye.com/heartland-storage-branson-t-hwy-163364779187649/review-us?dashboard=1 301!
+/branson-west/review                                   https://birdeye.com/heartland-storage-branson-west-163364779481144/review-us?dashboard=1 301!
+
+/lockwood/review                                       https://birdeye.com/heartland-storage-lockwood-miller-h-168331790077608/review-us?dashboard=1 301!
+/miller/review                                         https://birdeye.com/heartland-storage-lockwood-miller-e-168331788640483/review-us?dashboard=1 301!
+/mt-vernon-a/review                                    https://birdeye.com/heartland-storage-lawrence-county-a-168331783019239/review-us?dashboard=1 301!
+/mt-vernon-r/review                                    https://birdeye.com/heartland-storage-lawrence-county-r-168331784632624/review-us?dashboard=1 301!
+/verona-t/review                                       https://birdeye.com/heartland-storage-lawrence-county-t-168331787104977/review-us?dashboard=1 301!
+
+/ozark/review                                          https://birdeye.com/heartland-storage-ozark-e-n-21st-street-163364781100759/review-us?dashboard=1 301!
+/ozark-a/review                                        https://birdeye.com/heartland-storage-ozark-a-s-11th-street-163364779703299/review-us?dashboard=1 301!
+/ozark-b/review                                        https://birdeye.com/heartland-storage-ozark-b-s-3rd-street-163364780810212/review-us?dashboard=1 301!
+/ozark-c/review                                        https://birdeye.com/heartland-storage-ozark-c-n-23rd-street-163364781037921/review-us?dashboard=1 301!
+/ozark-d/review                                        https://birdeye.com/heartland-storage-ozark-d-n-2nd-street-163364780343045/review-us?dashboard=1 301!
+/ozark-e/review                                        https://birdeye.com/heartland-storage-ozark-e-n-21st-street-163364781100759/review-us?dashboard=1 301!
+/ozark-f/review                                        https://birdeye.com/heartland-storage-ozark-f-e-south-street-163364779654447/review-us?dashboard=1 301!
+/ozark-g/review                                        https://birdeye.com/heartland-storage-ozark-g-n-10th-street-163364780842417/review-us?dashboard=1 301!
+/ozark-h/review                                        https://birdeye.com/heartland-storage-ozark-h-w-clay-street-163364779781444/review-us?dashboard=1 301!
+
+/clevenger/review                                      https://g.page/r/Ccn14HnMJbJ_EAI/review 301!
+/fruita/review                                         https://birdeye.com/heartland-storage-fruita-168331780296938/review-us?dashboard=1 301!
+/hobart/review                                         https://birdeye.com/heartland-storage-hobart-163364780165744/review-us?dashboard=1 301!
+/klinger-lake/review                                   https://birdeye.com/heartland-storage-klinger-lake-168331779035236/review-us?dashboard=1 301!
+/lafayette/review                                      https://birdeye.com/heartland-storage-lafayette-163364779523229/review-us?dashboard=1 301!
+/lake-geneva/review                                    https://birdeye.com/heartland-storage-lake-geneva-167449563263445/review-us?dashboard=1 301!
+/lake-mac/review                                       https://birdeye.com/lake-mac-storage-168331781740332/review-us?dashboard=1 301!
+/lakeview/review                                       https://birdeye.com/chicago-northside-storage-lakeview-163364779962712/review-us?dashboard=1 301!
+/lynwood/review                                        https://birdeye.com/heartland-storage-lynwood-163364781576420/review-us?dashboard=1 301!
+/merrillville/review                                   https://birdeye.com/heartland-storage-merrillville-163364781249266/review-us?dashboard=1 301!
+/michigan-city/review                                  https://birdeye.com/heartland-storage-michigan-city-163364781293217/review-us?dashboard=1 301!
+/plymouth/review                                       https://birdeye.com/plymouth-storage-163364780374930/review-us?dashboard=1 301!
+/rochester/review                                      https://birdeye.com/rochester-storage-163364780615373/review-us?dashboard=1 301!
+/sturgis/review                                        https://birdeye.com/heartland-storage-sturgis-163364780494754/review-us?dashboard=1 301!
+/sturgis-b/review                                      https://birdeye.com/heartland-storage-sturgis-b-168331791878898/review-us?dashboard=1 301!
+/warsaw/review                                         https://birdeye.com/heartland-storage-warsaw-167338470236109/review-us?dashboard=1 301!
