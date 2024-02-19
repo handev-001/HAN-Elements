@@ -1,2 +1,2 @@
-# hlparks-review
-review redirect links
+# hlparks-links
+redirect links
