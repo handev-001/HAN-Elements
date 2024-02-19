@@ -1,17 +1,29 @@
 # redirects
-# source                                        target
-# old                                           new
+# source                    target
+# old                       new
 
-# /short                                       https://redirect.com 301!
+# /short                   https://redirect.com 301!
+
+# direct Links
+/big-rig          https://www.blackhillsvista.com/ 301!
+/black-hills      https://www.blackhillsvista.com/ 301!
+/bhv              https://www.blackhillsvista.com/ 301!
+/deep-lake        https://deeplakecampground.com/ 301!
+/eleanor-oaks     https://www.eleanoroaksrvpark.com/ 301!
+/gcr              https://www.glenwoodcanyonresort.com/ 301!
+/grand-island     https://koa.com/campgrounds/grand-island/ 301!
+/lake-mason       http://camplakemason.com/ 301!
+/monument         https://www.monumentrvresort.com/ 301!
+/stagecoach       https://bransonstagecoach.com/ 301!
 
 # Review Links
-/big-rig/review                              https://birdeye.com/big-rig-rv-park-campground-168252820277524/review-us?dashboard=1 301!
-/black-hills/review                          https://birdeye.com/big-rig-rv-park-campground-168252820277524/review-us?dashboard=1 301!
-/bhv/review                                  https://birdeye.com/big-rig-rv-park-campground-168252820277524/review-us?dashboard=1 301!
-/deep-lake/review                            https://birdeye.com/deep-lake-campground-168252817293153/review-us?dashboard=1 301!
-/eleanor-oaks/review                         https://birdeye.com/eleanor-oaks-rv-park-168252813529755/review-us?dashboard=1 301!
-/gcr/review                                  https://birdeye.com/glenwood-canyon-resort-168252809936323/review-us?dashboard=1 301!
-/grand-island/review                         https://birdeye.com/grand-island-koa-journey-168252822246359/review-us?dashboard=1 301!
-/lake-mason/review                           https://birdeye.com/lake-mason-campground-168252824013920/review-us?dashboard=1 301!
-/monument/review                             https://birdeye.com/monument-rv-resort-168252818725478/review-us?dashboard=1 301!
-/stagecoach/review                           https://birdeye.com/branson-stagecoach-campground-163364781505851/review-us?dashboard=1 301!
+/big-rig/review          https://birdeye.com/big-rig-rv-park-campground-168252820277524/review-us?dashboard=1 301!
+/black-hills/review      https://birdeye.com/big-rig-rv-park-campground-168252820277524/review-us?dashboard=1 301!
+/bhv/review              https://birdeye.com/big-rig-rv-park-campground-168252820277524/review-us?dashboard=1 301!
+/deep-lake/review        https://birdeye.com/deep-lake-campground-168252817293153/review-us?dashboard=1 301!
+/eleanor-oaks/review     https://birdeye.com/eleanor-oaks-rv-park-168252813529755/review-us?dashboard=1 301!
+/gcr/review              https://birdeye.com/glenwood-canyon-resort-168252809936323/review-us?dashboard=1 301!
+/grand-island/review     https://birdeye.com/grand-island-koa-journey-168252822246359/review-us?dashboard=1 301!
+/lake-mason/review       https://birdeye.com/lake-mason-campground-168252824013920/review-us?dashboard=1 301!
+/monument/review         https://birdeye.com/monument-rv-resort-168252818725478/review-us?dashboard=1 301!
+/stagecoach/review       https://birdeye.com/branson-stagecoach-campground-163364781505851/review-us?dashboard=1 301!
