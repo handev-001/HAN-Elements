@@ -1,0 +1,63 @@
+
+
+    <style>
+		/* iframe responsiveness */
+		[style*="--aspect-ratio"] > :first-child {
+			width: 100%;
+		}
+		[style*="--aspect-ratio"] > img {
+			height: auto;
+		}
+		@supports (--custom: property) {
+			[style*="--aspect-ratio"] {
+				position: relative;
+			}
+			[style*="--aspect-ratio"]::before {
+				content: "";
+				display: block;
+				padding-bottom: calc(100% / (var(--aspect-ratio)));
+			}
+			[style*="--aspect-ratio"] > :first-child {
+				position: absolute;
+				top: 0;
+				left: 0;
+				height: 100%;
+			}
+		}
+
+		/* for mobile sizes */
+		@media only screen and (max-width: 599px) {
+			[style*="--aspect-ratio-m"] > :first-child {
+				width: 100%;
+			}
+			[style*="--aspect-ratio-m"] > img {
+				height: auto;
+			}
+			@supports (--custom: property) {
+				[style*="--aspect-ratio-m"] {
+					position: relative;
+				}
+				[style*="--aspect-ratio-m"]::before {
+					content: "";
+					display: block;
+					padding-bottom: calc(100% / (var(--aspect-ratio-m)));
+				}
+				[style*="--aspect-ratio-m"] > :first-child {
+					position: absolute;
+					top: 0;
+					left: 0;
+					height: 100%;
+				}
+			}
+		}		
+    </style>
+	<div style="--aspect-ratio: 16/9; --aspect-ratio-m: 3/4;">
+		<iframe src="https://hlparks.com/static/policies/"
+		title="Heartland Parks - Policies"
+		width="100%"
+		height="7100"
+		style="border: 0; display:block; margin:0 auto;"
+		allowfullscreen></iframe>
+	</div>
+
+
