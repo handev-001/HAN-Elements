@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Heartland Storage - Google Map</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+   		/* iframe responsiveness */
+		[style*="--aspect-ratio"] > :first-child {
+			width: 100%;
+		}
+		[style*="--aspect-ratio"] > img {
+			height: auto;
+		}
+		@supports (--custom: property) {
+			[style*="--aspect-ratio"] {
+				position: relative;
+			}
+			[style*="--aspect-ratio"]::before {
+				content: "";
+				display: block;
+				padding-bottom: calc(100% / (var(--aspect-ratio)));
+			}
+			[style*="--aspect-ratio"] > :first-child {
+				position: absolute;
+				top: 0;
+				left: 0;
+				height: 100%;
+			}
+		}
+
+		/* for mobile sizes */
+		@media only screen and (max-width: 599px) {
+			[style*="--aspect-ratio-m"] > :first-child {
+				width: 100%;
+			}
+			[style*="--aspect-ratio-m"] > img {
+				height: auto;
+			}
+			@supports (--custom: property) {
+				[style*="--aspect-ratio-m"] {
+					position: relative;
+				}
+				[style*="--aspect-ratio-m"]::before {
+					content: "";
+					display: block;
+					padding-bottom: calc(100% / (var(--aspect-ratio-m)));
+				}
+				[style*="--aspect-ratio-m"] > :first-child {
+					position: absolute;
+					top: 0;
+					left: 0;
+					height: 100%;
+				}
+			}
+		}		
+    </style>
+
+</head>
+<body>
+
+
+
+	<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1wmRu8E7Aw9_-pmCTchkYeigFyUOJl7BI&ehbc=2E312F&zoom-15" width="640" height="480"></iframe>
+
+	
+
+
+
+</body>
+</html>
