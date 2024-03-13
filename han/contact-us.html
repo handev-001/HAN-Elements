@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>HAN Capital- Contact Us</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+   
+	<link rel="stylesheet" id="element-style"  href="style.css" media="all" />
+
+</head>
+<body>
+	<div class="container-form">
+    <form class="net-form" data-netlify="true" name="han-contact-us" method="POST" action="thank-you" netlify-honeypot="h-field">
+        <input type='hidden' name='form-name' value='han-contact-us' />
+        
+        <label for="name">Name <span class="red-text">*</span></label>
+        <input type="text" id="name" name="name" required="required" placeholder="Pat Doe">
+        
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="PatD@email.com">
+        
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" name="phone" pattern="1?[0-9]{3}-?[0-9]{3}-?[0-9]{4}" placeholder="555-867-5309">
+              
+        <label for="message">Message <span class="red-text">*</span></label>
+        <textarea id="message" name="message" rows="5"></textarea>
+        
+        <input type="text" id="h-field" name="h-field">
+
+        <input type="submit" name="submit" value="Submit Message">
+    </form>
+    </div>
+</body>
+</html>
