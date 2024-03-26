@@ -14,14 +14,67 @@
     <form class="net-form" data-netlify="true" name="han-contact-us" method="POST" action="/han/thank-you.html" netlify-honeypot="h-field">
         <input type='hidden' name='form-name' value='han-contact-us' />
         
-        <label for="name">Name <span class="red-text">*</span></label>
-        <input type="text" id="name" name="name" required="required" placeholder="Pat Doe">
+        <label for="namef">First Name <span class="red-text">*</span></label>
+        <input type="text" id="namef" name="namef" required="required" placeholder="Pat" autocomplete="given-name">
+
+        <label for="namel">Last Name <span class="red-text">*</span></label>
+        <input type="text" id="namel" name="namel" required="required" placeholder="Doe" autocomplete="family-name">
         
         <label for="email">Email</label>
-        <input type="email" id="email" name="email" placeholder="PatD@email.com">
+        <input type="email" id="email" name="email" placeholder="PatD@email.com" autocomplete="email">
         
         <label for="phone">Phone</label>
-        <input type="tel" id="phone" name="phone" pattern="1?[0-9]{3}-?[0-9]{3}-?[0-9]{4}" placeholder="555-867-5309">
+        <input type="tel" id="phone" name="phone" pattern="1?[0-9]{3}-?[0-9]{3}-?[0-9]{4}" placeholder="555-867-5309" autocomplete="tel">
+
+        <fieldset>
+            <legend>I'm Interested In:</legend>
+          
+            <div>
+              <input type="radio" id="investing" name="interest" value="investing"  />
+              <label for="investing">Investing</label>
+            </div>
+          
+            <div>
+              <input type="radio" id="seling" name="interest" value="seling" />
+              <label for="seling">Selling My Property</label>
+            </div>
+          
+            <div>
+              <input type="radio" id="other" name="interest" value="other" checked />
+              <label for="other">Other</label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Do you qualify as an Accredited Investor through one or more of the below categories?</legend>
+          
+            <div>
+              <input type="checkbox" id="ini200" name="ini200" />
+              <label for="ini200">Individual Net Income Exceeds $200K</label>
+            </div>
+
+            <div>
+              <input type="checkbox" id="jni300" name="jni300" />
+              <label for="jni300">Joint (with a spouse) Net Income Exceeds $300K</label>
+            </div>
+            
+            <div>
+              <input type="checkbox" id="nw1m" name="nw1m" />
+              <label for="nw1m">Net Worth Exceeds $1,000,000 excluding primary residence</label>
+            </div>
+            
+            <div>
+              <input type="checkbox" id="nw5m" name="nw5m" />
+              <label for="nw5m">Net Worth Exceeds $5,000,000 (including primary residence)</label>
+            </div>
+            
+            <div>
+              <input type="checkbox" id="notinvestor" name="notinvestor" />
+              <label for="notinvestor">I am not an accredited investor</label>
+            </div>
+            
+          </fieldset>
+          
               
         <label for="message">Message <span class="red-text">*</span></label>
         <textarea id="message" name="message" rows="5"></textarea>
