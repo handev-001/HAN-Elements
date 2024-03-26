@@ -83,15 +83,6 @@ form.net-form {
 	align-content:flex-start;
 	gap: 5px 10px;
 }
-form.net-form fieldset {
-	display:flex;
-	flex-direction:column;
-	flex-wrap:wrap;
-	justify-content:flex-start;
-	align-items:flex-start;
-	align-content:flex-start;
-	gap: 5px 10px;
-}
 form.net-form  br {
 	display: none;
 	width: 0px;
@@ -104,14 +95,15 @@ form.net-form  input,
 form.net-form  select,
 form.net-form  textarea {
 	flex: 1 0 100%;
-	min-height:2em;
+	min-height: 3em;
 	margin-bottom: 0.5em;
+	padding-left: 5px;
 
 	background-color: rgba(255,255,255,1);
     border-style: solid;
     border-width: 1px;
     border-color: rgba(214,214,214,1);
-	border-radius: 3px;
+	border-radius: 5px;
 }
 
 form.net-form input[type="checkbox"],
@@ -135,10 +127,19 @@ form.net-form input[type="submit"]:hover {
 	border: 1px solid rgba(0,0,0,1);
 }
 
-form.net-form  fieldset {
+form.net-form fieldset {
+	display:flex;
 	flex: 1 0 calc(100% - 1.5em);
+	flex-direction:column;
+	flex-wrap:wrap;
+	justify-content:flex-start;
+	align-items:flex-start;
+	align-content:flex-start;
+	gap: 5px 10px;
+	border:none;
 }
 form.net-form  fieldset  legend {
+	color: #0170b9;
 	border: none;
 }
 form.net-form  fieldset input[type="radio"] {
