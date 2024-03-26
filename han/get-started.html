@@ -14,17 +14,13 @@
     <form class="net-form" data-netlify="true" name="han-get-started" method="POST" action="/han/thank-you.html" netlify-honeypot="h-field">
         <input type='hidden' name='form-name' value='han-get-started' />
         
-        <label for="name">Name <span class="red-text">*</span></label>
-        <input type="text" id="name" name="name" required="required" placeholder="Pat Doe" autocomplete="name">
+        <input type="text" id="name" name="name" required="required" placeholder="Full Name *" autocomplete="name">
         
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" placeholder="PatD@email.com" autocomplete="email">
+        <input type="email" id="email" name="email" placeholder="Email" autocomplete="email">
         
-        <label for="phone">Phone</label>
-        <input type="tel" id="phone" name="phone" pattern="1?[0-9]{3}-?[0-9]{3}-?[0-9]{4}" placeholder="555-867-5309" autocomplete="tel">
+        <input type="tel" id="phone" name="phone" pattern="1?[0-9]{3}-?[0-9]{3}-?[0-9]{4}" placeholder="Phone" autocomplete="tel">
               
-        <label for="message">Message <span class="red-text">*</span></label>
-        <textarea id="message" name="message" rows="5"></textarea>
+        <textarea id="message" name="message" rows="5" required="required" placeholder="Message *"></textarea>
         
         <input type="text" id="h-field" name="h-field">
 
