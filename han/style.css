@@ -148,7 +148,6 @@ form.net-form  fieldset input[type="radio"] {
 }
 form.net-form  fieldset label {
 	flex: 1 0 100%;
-	float: left;
 }
 
 form #h-field {
