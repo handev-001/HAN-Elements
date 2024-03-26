@@ -136,6 +136,8 @@ form.net-form fieldset {
 	align-items:flex-start;
 	align-content:flex-start;
 	gap: 5px 10px;
+	margin-left: 0;
+	padding-left: 0;
 	border:none;
 }
 form.net-form  fieldset  legend {
