@@ -74,10 +74,18 @@ h2 {
 
 
 
-form.net-form,
-form.net-form fieldset {
+form.net-form {
 	display:flex;
 	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:flex-start;
+	align-items:flex-start;
+	align-content:flex-start;
+	gap: 5px 10px;
+}
+form.net-form fieldset {
+	display:flex;
+	flex-direction:column;
 	flex-wrap:wrap;
 	justify-content:flex-start;
 	align-items:flex-start;
@@ -104,6 +112,11 @@ form.net-form  textarea {
     border-width: 1px;
     border-color: rgba(214,214,214,1);
 	border-radius: 3px;
+}
+
+form.net-form input[type="checkbox"],
+form.net-form input[type="radio"] {
+	min-height: auto;
 }
 form.net-form input[type="submit"] {
 	transition: ease all 300ms;
