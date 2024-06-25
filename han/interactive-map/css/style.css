@@ -81,7 +81,7 @@
   z-index: 1;  
 }
 .distribution-map .map-point .icon {
-  line-height:26px;
+  line-height:27px;
   display:block;
   opacity: 1;
   transition: opacity 0.5s ease-in-out 0.5s; 
@@ -127,4 +127,15 @@
     width: 280px;
     height: auto;
   }
+}
+
+
+
+.distribution-map ul li a:nth-of-type(2),
+.distribution-map ul li a:nth-of-type(3),
+.distribution-map ul li a:nth-of-type(4) {
+  display:none;
+}
+.distribution-map ul li br {
+  display:none;
 }
