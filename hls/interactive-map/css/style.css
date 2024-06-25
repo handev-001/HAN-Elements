@@ -32,7 +32,6 @@
   color: #dff3fd;
 }
 .distribution-map ul {
-  padding-left: 1.5em;
 }
 .distribution-map li.active a, 
 .distribution-map li.active a:hover, 
@@ -59,7 +58,7 @@
   color: #e5e5e5;
   
   background: rgba(26, 26, 26, 0.85);
-  border: 5px solid #0170b9;
+  border: 5px solid #f05829;
   border-radius: 20px;
   
   box-sizing: border-box;
@@ -79,6 +78,18 @@
   opacity: 1;
   transition: opacity 0.25s ease-in-out 0.25s, max-height 0.25s ease-in-out, width 0.25s ease-in-out;
   z-index: 1;  
+}
+.distribution-map .map-point .icon {
+    line-height:26px;
+    display:block;
+    opacity: 1;
+transition: opacity 0.5s ease-in-out 0.5s; 
+}
+.distribution-map .map-point:focus .icon,
+.distribution-map .map-point:active .icon {
+    display:none;
+    opacity: 0;
+transition: opacity 0.5s ease-in-out 0.5s; 
 }
 .distribution-map .map-point .content {
   width: 100%;
