@@ -1,6 +1,7 @@
 # redirects
 # source               target
 # old                  new
+# link that was clicked      #where you redirect to        301!
 
 # /short              https://redirect.com 301!
 
